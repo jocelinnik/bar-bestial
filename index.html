@@ -1,231 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
 
-    <title>Bar Bestial</title>
+    <link rel="stylesheet" href="css/cenario.css">
+    <link rel="stylesheet" href="css/cartas.css">
+    <link rel="stylesheet" href="css/modal.css">
+
+    <title>Cenário Bar Bestial</title>
 </head>
 <body>
-    <div id="conteiner">
-        <div class="carta" style="background-color: #68C2CA">
-            <div class="imagem-carta">
-                <img src="imagens/animais/1-mucura.jpg" alt="Mucura">
-            </div>
+    <div id="cenario">
+        <div id="nome_jogo"><h2 class="titulo">Bora pro Festival</h2></div>
 
-            <div class="informacoes-carta">
-                <h2>Mucura</h2>
-                <p>
-                    A Mucura é braba, e manda todos os animais 
-                    das duas espécies mais fortes na fila para 
-                    o Buracão do Grande Vitória, mas nunca faz 
-                    isso com outras mucuras, porque elas são 
-                    parceiras.
-                </p>
-            </div>
-        </div>
+        <div id="parintins"></div>
+        <div id="fila"></div>
+        <div id="buracao"></div>
 
-        <div class="carta" style="background-color: #ECC151">
-            <div class="imagem-carta">
-                <img src="imagens/animais/2-arara-azul.jpg" alt="Arara Azul">
-            </div>
+        <div id="sua_mao"><h2 class="titulo">Sua Mão</h2></div>
+        <div id="mao-cartas"></div>
 
-            <div class="informacoes-carta">
-                <h2>Arara Azul</h2>
-                <p>
-                    A Arara Azul parece a sua mãe:
-                    chega às 07:00 gritando que são 
-                    12:00. Quando ela chega na fila
-                    pode mandar QUALQUER um para o 
-                    Buracão do Grande Vitória.
-                </p>
-            </div>
-        </div>
-
-        <div class="carta" style="background-color: #89B167">
-            <div class="imagem-carta">
-                <img src="imagens/animais/3-paca.jpg" alt="Paca">
-            </div>
-
-            <div class="informacoes-carta">
-                <h2>Paca</h2>
-                <p>
-                    A Paca chega de boas, mas se tu
-                    vacila ela paga de doida. A Paca 
-                    pula na frente de um ou dois
-                    animais, não importando a força
-                    de quem tá na frente.
-                </p>
-            </div>
-        </div>
-
-        <div class="carta" style="background-color: #D13B58">
-            <div class="imagem-carta">
-                <img src="imagens/animais/4-macaco-de-cheiro.jpg" alt="Macaco de Cheiro">
-            </div>
-
-            <div class="informacoes-carta">
-                <h2>Macaco de Cheiro</h2>
-                <p>
-                    O Macaco de Cheiro só se garantindo 
-                    quando tá de galera. Quando tá sozinho, 
-                    fica onde tá. Quando chega outro Macaco 
-                    na fila, todos eles vão pro começo da 
-                    fila.
-                </p>
-            </div>
-        </div>
-
-        <div class="carta" style="background-color: #68C2CA">
-            <div class="imagem-carta">
-                <img src="imagens/animais/5-camaleao.jpg" alt="Camaleão">
-            </div>
-
-            <div class="informacoes-carta">
-                <h2>Camaleão</h2>
-                <p>
-                    O Camaleão é olhão grande. Ele 
-                    imita a habilidade de QUALQUER
-                    animal que está na fila, mas 
-                    isso dura só um pouquinho, depois 
-                    volta a ser um Camaleão da ZN.
-                </p>
-            </div>
-        </div>
-
-        <div class="carta" style="background-color: #ECC151">
-            <div class="imagem-carta">
-                <img src="imagens/animais/6-ariranha.jpg" alt="Ariranha">
-            </div>
-
-            <div class="informacoes-carta">
-                <h2>Ariranha</h2>
-                <p>
-                    A Ariranha é perigosíssima, então
-                    quando ela falar algo, não questione,
-                    apenas obedeça. Ela muda o sentido da 
-                    fila, fazendo ela mesma ficar na primeira
-                    posição pra entrar na festa.
-                </p>
-            </div>
-        </div>
-
-        <div class="carta" style="background-color: #89B167">
-            <div class="imagem-carta">
-                <img src="imagens/animais/7-anta.jpg" alt="Anta">
-            </div>
-
-            <div class="informacoes-carta">
-                <h2>
-                    Anta
-                    <span>&infin;</span>
-                </h2>
-                <p>
-                    A Anta é parceira do pessoal, mas não
-                    deixa gente folgada se criar pra cima
-                    dela. Ela evita que o Jacaré Açu e o 
-                    Peixe Boi avancem na sua frente, enquanto 
-                    ela estiver na fila.
-                </p>
-            </div>
-        </div>
-
-        <div class="carta" style="background-color: #D13B58">
-            <div class="imagem-carta">
-                <img src="imagens/animais/8-girafa.jpg" alt="Girafa">
-            </div>
-
-            <div class="informacoes-carta">
-                <h2>
-                    Girafa
-                    <span>&infin;</span>
-                </h2>
-                <p>
-                    A Girafa é aquela patricinha do Vieiralves
-                    que chega no All Night passando na frente 
-                    da galera. Ela passa na frente de um animal
-                    mais fraco que ela, podendo repetir isso
-                    várias vezes enquanto estiver na fila.
-                </p>
-            </div>
-        </div>
-
-        <div class="carta" style="background-color: #68C2CA">
-            <div class="imagem-carta">
-                <img src="imagens/animais/9-sucuri.jpg" alt="Sucuri">
-            </div>
-
-            <div class="informacoes-carta">
-                <h2>Sucuri</h2>
-                <p>
-                    A Sucuri é adepta do certo pelo certo,
-                    nada de bagunça na frente dela. Ela 
-                    chega na fila e organiza ela em ordem 
-                    decrescente de força de cada animal.
-                </p>
-            </div>
-        </div>
-
-        <div class="carta" style="background-color: #ECC151">
-            <div class="imagem-carta">
-                <img src="imagens/animais/10-jacare-acu.jpg" alt="Jacaré Açu">
-            </div>
-
-            <div class="informacoes-carta">
-                <h2>
-                    Jacaré Açu
-                    <span>&infin;</span>
-                </h2>
-                <p>
-                    O Jacaré Açu é aquele folgadão que
-                    paga de doido batendo em mulequinho.
-                    Ele manda todos os animais mais fracos
-                    que ele que estão na sua frente direto
-                    pro Buracão do Grande Vitória, sem dó.
-                </p>
-            </div>
-        </div>
-
-        <div class="carta" style="background-color: #89B167">
-            <div class="imagem-carta">
-                <img src="imagens/animais/11-peixe-boi.jpg" alt="Peixe Boi">
-            </div>
-
-            <div class="informacoes-carta">
-                <h2>
-                    Peixe Boi
-                    <span>&infin;</span>
-                </h2>
-                <p>
-                    O Peixe Boi é aquele muleque que estuda
-                    no Lato Sensu e mora na Ponta Negra que
-                    tem privilégios onde quer que vá. Ele 
-                    fura a fila na frente de todos os animais
-                    mais fracos que ele enquanto estiver na 
-                    fila.
-                </p>
-            </div>
-        </div>
-
-        <div class="carta" style="background-color: #D13B58">
-            <div class="imagem-carta">
-                <img src="imagens/animais/12-onca-pintada.jpg" alt="Onça Pintada">
-            </div>
-
-            <div class="informacoes-carta">
-                <h2>Onça Pintada</h2>
-                <p>
-                    A Onça Pintada é a dona da festa, cabô.
-                    Assim que chega na fila ela já manda 
-                    todos os Macacos de Cheiro pro Buracão 
-                    do Grande Vitória, e vai pro começo da 
-                    fila. Mas se chegar outra Onça na fila 
-                    pagando de doida, ela a manda direto pro 
-                    Buracão do Grande Vitória.
-                </p>
+        <!-- Modal (escondido, so aparece se necessario) -->
+        <div id="modal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div id="modal-header" class="modal-header"></div>
+                <div id="modal-body" class="modal-body"></div>
+                <div class="modal-footer">
+                    <h3>Bora pro Festival</h3>
+                </div>
             </div>
         </div>
     </div>
+
+    <!-- Ainda nao esta fechado, favor nao descomentar -->
+    <!--<script src="js/cartas.js"></script>--> <!-- Gerador de cartas -->
+    <script src="js/cartas-teste.js"></script> <!-- Gerador de cartas (teste de execucao) -->
+    <script src="js/animais.js"></script> <!-- Habilidade dos animais -->
+    <script src="js/gameplay.js"></script> <!-- Engine da logica do jogo -->
+    <script src="js/modais.js"></script> <!-- Ferramenta de modal -->
+    <script src="js/main.js"></script> <!-- Arquivo de inicializacao do jogo -->
 </body>
 </html>

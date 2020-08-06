@@ -5,7 +5,7 @@ body{
     justify-content: center;
 }
 
-h2{
+.titulo{
     font-family: sans-serif;
     -webkit-text-stroke: 1px #ffffff;
     -moz-text-stroke: 1px #ffffff;
@@ -27,6 +27,16 @@ h2{
     justify-content: center;
 }
 
+#sua_mao{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    bottom: 340px;
+}
+
 #parintins{
     width: 20%;
     height: 200px;
@@ -39,7 +49,7 @@ h2{
     width: 59.9%;
     height: 250px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 20% 20% 20% 20% 20%;
     align-items: center;
     justify-items: center;
     border: 2px solid #ffffff;
@@ -57,14 +67,6 @@ h2{
     left: 80.2%;
 }
 
-#mao{
-    width: 100%;
-    height: 300px;
-    border: 2px solid #ffffff;
-    position: relative;
-    bottom: 300px;
-}
-
 #mao-cartas{
     width: 60%;
     height: 250px;
@@ -73,63 +75,9 @@ h2{
     align-items: center;
     justify-items: center;
     border: 5px solid #ffffff;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     position: relative;
-    top: 42px;
-    left: 10%;
-}
-
-#monte-cartas{
-    width: 15%;
-    height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 5px solid #ffffff;
-    border-radius: 5px;
-    position: relative;
-    bottom: 240px;
-    left: 80%;
-}
-
-#monte-cartas img{
-    width: 80%;
-    height: 80%;
-}
-
-.carta{
-    width: 85%;
-    height: 80%;
-    display: flex block;
-    align-items: center;
-	justify-content: center;
-    border: 2px solid #ffffff;
-    border-radius: 5px;
-}
-
-.imagem-carta{
-    height: 50%;
-}
-
-.imagem-carta img{
-    width: 100%;
-    height: 100%;
-}
-
-.informacoes-carta{
-    display: flex block;
-    align-items: center;
-    justify-content: center;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-.botao-carta{
-    background-color: transparent;
-    border: 2px solid #ffffff;
-    border-radius: 5px;
-    color: #ffffff;
-    width: 100%;
-    height: 40px;
+    bottom: 310px;
+    left: 20%;
 }
